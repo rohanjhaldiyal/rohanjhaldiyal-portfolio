@@ -2,7 +2,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { GitHubLogoIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
+import {
+  GitHubLogoIcon,
+  ExternalLinkIcon,
+  ArrowRightIcon,
+} from "@radix-ui/react-icons";
 import { FaXTwitter } from "react-icons/fa6";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardContent } from "@/components/ui/card";
@@ -137,8 +141,10 @@ export default function Projects() {
                 </div>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <div className="hidden lg:block">
+              <CarouselPrevious />
+              <CarouselNext />
+            </div>
           </Carousel>
         ) : (
           <Carousel
@@ -337,10 +343,15 @@ export default function Projects() {
                 </div>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <div className="hidden lg:block">
+              <CarouselPrevious />
+              <CarouselNext />
+            </div>
           </Carousel>
         )}
+        <div className="text-center">
+          Swipe to view <ArrowRightIcon className="h-5 w-5 inline-block" />
+        </div>
       </div>
     </>
   );
