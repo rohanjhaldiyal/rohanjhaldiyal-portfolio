@@ -22,7 +22,7 @@ export default function Hero() {
       </h3>
       <h3 className="text-lg text-center text-gray-300 font-normal mt-2">
         A <span className="text-sky-300">Full Stack Developer</span> by Passion
-        and a <span className="text-sky-300">ML-Engineer</span> by Profession.
+        and an <span className="text-sky-300">ML-Engineer</span> by Profession.
       </h3>
       <h3 className="text-lg text-center text-gray-300 font-normal mt-2">
         I <span className="text-sky-300">Freelance</span> part time and{" "}

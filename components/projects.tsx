@@ -65,8 +65,8 @@ export default function Projects() {
                             Sushant Bhonde Portfolio
                           </h1>
                           <p className="text-lg text-gray-200 font-normal mt-4">
-                            A professional portfolio website for Sushant Bhonde,
-                            a Technical Artist.
+                            Professional portfolio website for Sushant Bhonde,
+                            a Technical Designer.
                           </p>
                           <div className="mt-2">
                             <Link
@@ -112,7 +112,7 @@ export default function Projects() {
                             RATs Solutions
                           </h1>
                           <p className="text-lg text-gray-200 font-normal mt-4">
-                            A professional portfolio website for my own agency
+                            Professional portfolio website for my own agency
                             RATs Solutions.
                           </p>
                           <div className="mt-2">
