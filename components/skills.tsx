@@ -39,7 +39,7 @@ export const projects = [
     title: "Vercel",
     description:
       "Vercel is the Frontend Cloud. Build, scale, and secure a faster, personalized web.",
-    link: "https://meta.com",
+    link: "https://vercel.com/",
   },
   {
     title: "Node.js",

@@ -349,7 +349,7 @@ export default function Projects() {
             </div>
           </Carousel>
         )}
-        <div className="text-center">
+        <div className="text-center block md:hidden p-0 mb-4">
           Swipe to view <ArrowRightIcon className="h-5 w-5 inline-block" />
         </div>
       </div>
