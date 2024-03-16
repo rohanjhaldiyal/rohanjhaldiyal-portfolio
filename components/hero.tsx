@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="flex flex-col items-center justify-center min-h-screen w-full">
       <Avatar className="h-40 w-40">
         <AvatarImage
-          src="https://github.com/rohanjhaldiyal.png"
+          src="/rohanjhaldiyal.jpg"
           alt="rohanjhaldiyal"
         />
         <AvatarFallback>RJ</AvatarFallback>

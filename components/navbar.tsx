@@ -13,7 +13,7 @@ export default function Navbar() {
             <Button size="default" variant="ghost">
               <Avatar className="mr-2">
                 <AvatarImage
-                  src="https://github.com/rohanjhaldiyal.png"
+                  src="/rohanjhaldiyal.jpg"
                   alt="rohanjhaldiyal"
                 />
                 <AvatarFallback>RJ</AvatarFallback>
