@@ -1,5 +1,39 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { Separator } from "@/components/ui/separator";
+import IconCloud from "@/components/ui/icon-cloud";
+
+const slugs = [
+  "typescript",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "flutter",
+  "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "vercel",
+  "testinglibrary",
+  "jest",
+  "cypress",
+  "docker",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "androidstudio",
+  "sonarqube",
+  "figma",
+];
 
 export default function Skills() {
   return (
@@ -8,9 +42,15 @@ export default function Skills() {
       <h1 className="text-xl text-center text-sky-500 font-normal mt-8 uppercase">
         Tech Stack
       </h1>
+      <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden px-20 mx-auto">
+        <IconCloud iconSlugs={slugs} />
+      </div>
       <h3 className="text-lg text-center text-gray-300 font-normal mt-4">
-        Expertise in <span className="text-sky-300">Most Modern Technologies & Frameworks</span> including
-        but not limited to :-
+        Expertise in{" "}
+        <span className="text-sky-300">
+          Most Modern Technologies & Frameworks
+        </span>{" "}
+        including but not limited to :-
       </h3>
       <HoverEffect items={projects} />
     </div>
