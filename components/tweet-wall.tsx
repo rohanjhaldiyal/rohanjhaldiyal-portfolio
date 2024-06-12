@@ -1,9 +1,8 @@
 "use client";
 import React from "react";
 import { Separator } from "@/components/ui/separator";
-import { TweetGrid } from "./ui/tweet-grid";
+import { TweetGrid } from "@/components//ui/tweet-grid";
 import { FaXTwitter } from "react-icons/fa6";
-import { Button } from "./ui/button";
 import Link from "next/link";
 
 // Grab tweet ids
