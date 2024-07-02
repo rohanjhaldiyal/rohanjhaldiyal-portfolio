@@ -69,7 +69,10 @@ export default function Projects() {
                             Uploadthing, Prisma, Postgresql
                           </p>
                           <div className="mt-2">
-                            <Link href="https://github.com/rohanjhaldiyal/t3-gallery">
+                            <Link
+                              href="https://github.com/rohanjhaldiyal/t3gallery"
+                              target="_blank"
+                            >
                               <Button size="default" variant="ghost">
                                 <GitHubLogoIcon className="h-5 w-5 mr-2" />
                                 Github
@@ -89,6 +92,53 @@ export default function Projects() {
                         <div>
                           <Image
                             src="/projects/t3-gallery.png"
+                            alt="t3-gallery"
+                            height={400}
+                            width={400}
+                          ></Image>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-video items-center justify-center p-6">
+                      <div className="flex flex-col-reverse md:flex-row items-center justify-center">
+                        <div className="flex flex-col items-start justify-center">
+                          <h1 className="text-4xl text-sky-400 font-semibold">
+                            AI Image Generator App
+                          </h1>
+                          <p className="text-lg text-gray-200 font-normal mt-4">
+                            An AI image generator application using Next.js,
+                            Hono and Cloudflare Workers
+                          </p>
+                          <div className="mt-2">
+                            <Link
+                              href="https://github.com/rohanjhaldiyal/image-generator"
+                              target="_blank"
+                            >
+                              <Button size="default" variant="ghost">
+                                <GitHubLogoIcon className="h-5 w-5 mr-2" />
+                                Github
+                              </Button>
+                            </Link>
+                            <Link
+                              href="https://image-generator-beryl-eta.vercel.app/"
+                              target="_blank"
+                            >
+                              <Button size="default" variant="ghost">
+                                <ExternalLinkIcon className="h-5 w-5 mr-2" />
+                                Live Demo
+                              </Button>
+                            </Link>
+                          </div>
+                        </div>
+                        <div>
+                          <Image
+                            src="/projects/image-generator.png"
                             alt="t3-gallery"
                             height={400}
                             width={400}
