@@ -52,8 +52,8 @@ const Socials = () => {
           >
             <defs>
               <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
-                <stop offset="0%" stop-color="#2AABEE" />
-                <stop offset="100%" stop-color="#229ED9" />
+                <stop offset="0%" stopColor="#2AABEE" />
+                <stop offset="100%" stopColor="#229ED9" />
               </linearGradient>
             </defs>
             <path

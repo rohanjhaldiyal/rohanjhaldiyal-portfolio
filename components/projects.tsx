@@ -35,7 +35,7 @@ export default function Projects() {
             className="hover:text-sky-400 hover:underline focus:text-sky-300 transition-colors"
             onClick={() => setProjects(true)}
           >
-            Freelance Projects
+            Open Source Projects
           </Button>
           <Button
             size="default"
@@ -43,7 +43,7 @@ export default function Projects() {
             className="hover:text-sky-400 hover:underline focus:text-sky-300 transition-colors"
             onClick={() => setProjects(false)}
           >
-            Side Projects
+            Freelance Projects
           </Button>
         </div>
         {projects ? (
@@ -62,24 +62,21 @@ export default function Projects() {
                       <div className="flex flex-col-reverse md:flex-row items-center justify-center">
                         <div className="flex flex-col items-start justify-center">
                           <h1 className="text-4xl text-sky-400 font-semibold">
-                            Sushant Bhonde Portfolio
+                            t3-gallery
                           </h1>
                           <p className="text-lg text-gray-200 font-normal mt-4">
-                            Professional portfolio website for Sushant Bhonde,
-                            a Technical Designer.
+                            A full stack gallery application using Next.js,
+                            Uploadthing, Prisma, Postgresql
                           </p>
                           <div className="mt-2">
-                            <Link
-                              href="https://twitter.com/almostblakbabu/status/1765036184323989566"
-                              target="_blank"
-                            >
+                            <Link href="https://github.com/rohanjhaldiyal/t3-gallery">
                               <Button size="default" variant="ghost">
-                                <FaXTwitter className="h-5 w-5 mr-2" />
-                                Testimonial
+                                <GitHubLogoIcon className="h-5 w-5 mr-2" />
+                                Github
                               </Button>
                             </Link>
                             <Link
-                              href="https://sushantbhonde.vercel.app/"
+                              href="https://t3gallery-steel-kappa.vercel.app/"
                               target="_blank"
                             >
                               <Button size="default" variant="ghost">
@@ -91,8 +88,8 @@ export default function Projects() {
                         </div>
                         <div>
                           <Image
-                            src="/projects/SushantBhonde.png"
-                            alt="Portfolio"
+                            src="/projects/t3-gallery.png"
+                            alt="t3-gallery"
                             height={400}
                             width={400}
                           ></Image>
@@ -102,59 +99,6 @@ export default function Projects() {
                   </Card>
                 </div>
               </CarouselItem>
-              <CarouselItem>
-                <div className="p-1">
-                  <Card>
-                    <CardContent className="flex aspect-video items-center justify-center p-6">
-                      <div className="flex flex-col-reverse md:flex-row items-center justify-center">
-                        <div className="flex flex-col items-start justify-center">
-                          <h1 className="text-4xl text-sky-400 font-semibold">
-                            RATs Solutions
-                          </h1>
-                          <p className="text-lg text-gray-200 font-normal mt-4">
-                            Professional portfolio website for my own agency
-                            RATs Solutions.
-                          </p>
-                          <div className="mt-2">
-                            <Link
-                              href="https://rats-website.vercel.app/"
-                              target="_blank"
-                            >
-                              <Button size="default" variant="ghost">
-                                <ExternalLinkIcon className="h-5 w-5 mr-2" />
-                                Live Demo
-                              </Button>
-                            </Link>
-                          </div>
-                        </div>
-                        <div>
-                          <Image
-                            src="/projects/RATs.png"
-                            alt="NextjsAuth"
-                            height={400}
-                            width={400}
-                          ></Image>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-            </CarouselContent>
-            <div className="hidden lg:block">
-              <CarouselPrevious />
-              <CarouselNext />
-            </div>
-          </Carousel>
-        ) : (
-          <Carousel
-            className="w-full max-w-5xl mb-4"
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-          >
-            <CarouselContent>
               <CarouselItem>
                 <div className="p-1">
                   <Card>
@@ -333,6 +277,106 @@ export default function Projects() {
                           <Image
                             src="/projects/RPS.png"
                             alt="Rock-Paper-Scissors"
+                            height={400}
+                            width={400}
+                          ></Image>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            </CarouselContent>
+            <div className="hidden lg:block">
+              <CarouselPrevious />
+              <CarouselNext />
+            </div>
+          </Carousel>
+        ) : (
+          <Carousel
+            className="w-full max-w-5xl mb-4"
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+          >
+            <CarouselContent>
+              <CarouselItem>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-video items-center justify-center p-6">
+                      <div className="flex flex-col-reverse md:flex-row items-center justify-center">
+                        <div className="flex flex-col items-start justify-center">
+                          <h1 className="text-4xl text-sky-400 font-semibold">
+                            Sushant Bhonde Portfolio
+                          </h1>
+                          <p className="text-lg text-gray-200 font-normal mt-4">
+                            Professional portfolio website for Sushant Bhonde, a
+                            Technical Designer.
+                          </p>
+                          <div className="mt-2">
+                            <Link
+                              href="https://twitter.com/almostblakbabu/status/1765036184323989566"
+                              target="_blank"
+                            >
+                              <Button size="default" variant="ghost">
+                                <FaXTwitter className="h-5 w-5 mr-2" />
+                                Testimonial
+                              </Button>
+                            </Link>
+                            <Link
+                              href="https://sushantbhonde.vercel.app/"
+                              target="_blank"
+                            >
+                              <Button size="default" variant="ghost">
+                                <ExternalLinkIcon className="h-5 w-5 mr-2" />
+                                Live Demo
+                              </Button>
+                            </Link>
+                          </div>
+                        </div>
+                        <div>
+                          <Image
+                            src="/projects/SushantBhonde.png"
+                            alt="Portfolio"
+                            height={400}
+                            width={400}
+                          ></Image>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-video items-center justify-center p-6">
+                      <div className="flex flex-col-reverse md:flex-row items-center justify-center">
+                        <div className="flex flex-col items-start justify-center">
+                          <h1 className="text-4xl text-sky-400 font-semibold">
+                            RATs Solutions
+                          </h1>
+                          <p className="text-lg text-gray-200 font-normal mt-4">
+                            Professional portfolio website for my own agency
+                            RATs Solutions.
+                          </p>
+                          <div className="mt-2">
+                            <Link
+                              href="https://rats-website.vercel.app/"
+                              target="_blank"
+                            >
+                              <Button size="default" variant="ghost">
+                                <ExternalLinkIcon className="h-5 w-5 mr-2" />
+                                Live Demo
+                              </Button>
+                            </Link>
+                          </div>
+                        </div>
+                        <div>
+                          <Image
+                            src="/projects/RATs.png"
+                            alt="NextjsAuth"
                             height={400}
                             width={400}
                           ></Image>
