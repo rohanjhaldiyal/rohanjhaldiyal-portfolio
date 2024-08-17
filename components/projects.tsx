@@ -62,11 +62,58 @@ export default function Projects() {
                       <div className="flex flex-col-reverse md:flex-row items-center justify-center">
                         <div className="flex flex-col items-start justify-center">
                           <h1 className="text-4xl text-sky-400 font-semibold">
+                            Catppuccin Template
+                          </h1>
+                          <p className="text-lg text-gray-200 font-normal mt-4">
+                            A Catppuccin Mocha themed open-source portfolio template made using Next.js and
+                            tailwindcss.
+                          </p>
+                          <div className="mt-2">
+                            <Link
+                              href="https://github.com/rohanjhaldiyal/catppuccin-template"
+                              target="_blank"
+                            >
+                              <Button size="default" variant="ghost">
+                                <GitHubLogoIcon className="h-5 w-5 mr-2" />
+                                Github
+                              </Button>
+                            </Link>
+                            <Link
+                              href="https://catppuccin-template.vercel.app/"
+                              target="_blank"
+                            >
+                              <Button size="default" variant="ghost">
+                                <ExternalLinkIcon className="h-5 w-5 mr-2" />
+                                Live Demo
+                              </Button>
+                            </Link>
+                          </div>
+                        </div>
+                        <div>
+                          <Image
+                            src="/projects/catppuccin.png"
+                            alt="t3-gallery"
+                            height={400}
+                            width={400}
+                          ></Image>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-video items-center justify-center p-6">
+                      <div className="flex flex-col-reverse md:flex-row items-center justify-center">
+                        <div className="flex flex-col items-start justify-center">
+                          <h1 className="text-4xl text-sky-400 font-semibold">
                             t3-gallery
                           </h1>
                           <p className="text-lg text-gray-200 font-normal mt-4">
                             A full stack gallery application using Next.js,
-                            Uploadthing, Prisma, Postgresql
+                            Uploadthing, Drizzle, Postgresql.
                           </p>
                           <div className="mt-2">
                             <Link
@@ -113,7 +160,7 @@ export default function Projects() {
                           </h1>
                           <p className="text-lg text-gray-200 font-normal mt-4">
                             An AI image generator application using Next.js,
-                            Hono and Cloudflare Workers
+                            Hono and Cloudflare Workers.
                           </p>
                           <div className="mt-2">
                             <Link
@@ -253,7 +300,7 @@ export default function Projects() {
                             Netflix Clone
                           </h1>
                           <p className="text-lg text-gray-200 font-normal mt-4">
-                            Netflix landing page made using HTML and CSS
+                            Netflix landing page made using HTML and CSS.
                           </p>
                           <div className="mt-2">
                             <Link
@@ -300,7 +347,7 @@ export default function Projects() {
                           </h1>
                           <p className="text-lg text-gray-200 font-normal mt-4">
                             A simple Rock Paper Scissors game made using HTML,
-                            CSS and JavaScript
+                            CSS and JavaScript.
                           </p>
                           <div className="mt-2">
                             <Link
