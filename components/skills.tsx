@@ -36,6 +36,9 @@ const slugs = [
 ];
 
 export default function Skills() {
+  const images = slugs.map(
+    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`
+  );
   return (
     <div className="max-w-5xl mx-auto px-8">
       <Separator />
@@ -43,7 +46,7 @@ export default function Skills() {
         Tech Stack
       </h1>
       <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden px-20 mx-auto">
-        <IconCloud iconSlugs={slugs} />
+        <IconCloud images={images} />
       </div>
       <h3 className="text-lg text-center text-gray-300 font-normal mt-4">
         Expertise in{" "}
