@@ -32,9 +32,12 @@ export default function Hero() {
         <span className="text-sky-300">
           <ReactLogo className="inline-block" /> React{" "}
         </span>
+        <span className="text-sky-300">
+          <TailwindCSS className="inline-block" /> tailwindcss{" "}
+        </span>
         and{" "}
         <span className="text-sky-300">
-          <Framer className="inline-block" /> Framer Motion{" "}
+          <Motion className="inline-block" /> Motion{" "}
         </span>
       </h3>
       <Socials />
@@ -102,18 +105,45 @@ const ReactLogo = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-const Framer = (props: SVGProps<SVGSVGElement>) => (
+const Motion = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    viewBox="0 0 256 384"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1103 386"
+    width="1em"
+    height="1em"
+    {...props}
+  >
+    <path
+      fill="#FFF312"
+      d="M416.473 0 198.54 385.66H0L170.17 84.522C196.549 37.842 262.377 0 317.203 0Zm486.875 96.415c0-53.249 44.444-96.415 99.27-96.415 54.826 0 99.27 43.166 99.27 96.415 0 53.248-44.444 96.415-99.27 96.415-54.826 0-99.27-43.167-99.27-96.415ZM453.699 0h198.54L434.306 385.66h-198.54Zm234.492 0h198.542L716.56 301.138c-26.378 46.68-92.207 84.522-147.032 84.522h-99.27Z"
+    />
+  </svg>
+);
+
+const TailwindCSS = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 256 154"
     width="1em"
     height="1em"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid"
     {...props}
   >
+    <defs>
+      <linearGradient
+        x1="-2.778%"
+        y1="32%"
+        x2="100%"
+        y2="67.556%"
+        id="gradient"
+      >
+        <stop stopColor="#2298BD" offset="0%" />
+        <stop stopColor="#0ED7B5" offset="100%" />
+      </linearGradient>
+    </defs>
     <path
-      fill="#fff"
-      d="M0 0h256v128H128L0 0Zm0 128h128l128 128H128v128L0 256V128Z"
+      d="M128 0C93.867 0 72.533 17.067 64 51.2 76.8 34.133 91.733 27.733 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.057 160.275 76.8 192 76.8c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.743 159.725 0 128 0ZM64 76.8C29.867 76.8 8.533 93.867 0 128c12.8-17.067 27.733-23.467 44.8-19.2 9.737 2.434 16.697 9.499 24.401 17.318C81.751 138.857 96.275 153.6 128 153.6c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C110.249 91.543 95.725 76.8 64 76.8Z"
+      fill="url(#gradient)"
     />
   </svg>
 );
