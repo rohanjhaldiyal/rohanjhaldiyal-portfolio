@@ -10,20 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Rohan Jhaldiyal",
   description: "Personal Portfolio Website",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://rohanjhaldiyal.tech",
-    siteName: "Rohan Jhaldiyal",
-    images: [
-      {
-        url: "og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Rohan Jhaldiyal",
-      },
-    ],
-  },
 };
 
 export default function RootLayout({

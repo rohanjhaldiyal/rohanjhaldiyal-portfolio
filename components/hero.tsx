@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import React, { SVGProps } from "react";
 import Socials from "./socials-navbar";
-import { ArrowDownIcon } from "@radix-ui/react-icons";
+import { ArrowDownIcon, DownloadIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 
 export default function Hero() {
@@ -41,6 +41,19 @@ export default function Hero() {
         </span>
       </h3>
       <Socials />
+
+      {/* Download Resume Button */}
+      <div className="mt-6">
+        <Link
+          href="https://drive.google.com/file/d/166h-onOfPhz1h_wjW8YTdwgsQvwYIvC3/view?usp=drive_link"
+          target="_blank"
+          className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-sky-300 border border-sky-300/30 rounded-lg hover:bg-sky-300/10 hover:border-sky-300/50 transition-all duration-300 group"
+        >
+          <DownloadIcon className="h-4 w-4 group-hover:translate-y-0.5 transition-transform duration-300" />
+          Download Resume
+        </Link>
+      </div>
+
       <div className="text-center block md:hidden text-gray-400 text-xs p-2 mt-4">
         <Link href="#Skills">
           Scroll to see more <ArrowDownIcon className="h-4 w-4 inline-block" />

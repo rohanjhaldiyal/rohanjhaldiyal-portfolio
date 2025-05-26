@@ -10,7 +10,7 @@ export default function Home() {
         <Hero />
       </section>
       <section id="Tweets">
-        <TweetWall></TweetWall>
+        <TweetWall />
       </section>
       <section id="Skills">
         <Skills />
