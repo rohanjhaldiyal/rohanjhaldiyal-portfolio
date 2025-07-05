@@ -19,7 +19,7 @@ export default function Hero() {
         <span className="text-sky-300">Websites and Landing Pages.</span>
       </h3>
       <h3 className="text-lg text-center text-gray-300 font-normal mt-2">
-        A <span className="text-sky-300">Frontend Developer</span> currently{" "}
+        A <span className="text-sky-300">Fullstack Developer</span> currently{" "}
         <span className="text-sky-300">Open to Work</span>{" "}
         (Internships/Contract/Full-Time).
       </h3>
