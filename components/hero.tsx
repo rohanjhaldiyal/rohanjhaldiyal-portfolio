@@ -45,7 +45,7 @@ export default function Hero() {
       {/* Download Resume Button */}
       <div className="mt-6">
         <Link
-          href="https://drive.google.com/file/d/166h-onOfPhz1h_wjW8YTdwgsQvwYIvC3/view?usp=drive_link"
+          href="https://dub.sh/rohan-resume"
           target="_blank"
           className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-sky-300 border border-sky-300/30 rounded-lg hover:bg-sky-300/10 hover:border-sky-300/50 transition-all duration-300 group"
         >
