@@ -83,17 +83,6 @@ export default function WorkExperience() {
 
   const workExperiences = [
     {
-      company: "Stealth Startup",
-      role: "Founding Engineer",
-      location: "US",
-      type: "Remote (Part-Time)",
-      startDate: "Aug 2025",
-      endDate: "Present",
-      description:
-        "Designing and building intuitive, scalable UIs and seamless AI integrations, shaping the user experience for a Global AI Executive Assistant platform from the ground up.",
-      icon: startupIcon,
-    },
-    {
       company: "RATs Solutions",
       role: "Full Stack Developer",
       location: "India",
