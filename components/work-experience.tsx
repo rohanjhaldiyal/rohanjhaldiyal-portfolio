@@ -87,10 +87,10 @@ export default function WorkExperience() {
       role: "Full Stack Developer",
       location: "India",
       type: "Remote (Contract)",
-      startDate: "Jan 2024",
+      startDate: "Jan 2025",
       endDate: "Present",
       description:
-        "Rapidly shipping MVPs for early-stage startup clients, crafting sleek, high-performance UIs and conversion-focused landing pages that accelerate product launches and growth",
+        "Rapidly shipping MVPs for early-stage startup clients, crafting sleek, high-performance UIs and conversion-focused landing pages that accelerate product launches and growth.",
       icon: ratsIcon,
     },
   ];
