@@ -1,4 +1,3 @@
-"use client";
 import { Separator } from "@/components/ui/separator";
 import WorkCard from "@/components/ui/workcard";
 
@@ -75,12 +74,6 @@ export default function WorkExperience() {
     </svg>
   );
 
-  const startupIcon = (
-    <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" />
-    </svg>
-  );
-
   const workExperiences = [
     {
       company: "RATs Solutions",
@@ -117,7 +110,7 @@ export default function WorkExperience() {
             startDate={experience.startDate}
             endDate={experience.endDate}
             description={experience.description}
-            icon={experience.icon} // Now passing the icon prop
+            icon={experience.icon}
           />
         ))}
       </div>
