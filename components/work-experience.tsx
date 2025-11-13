@@ -74,16 +74,50 @@ export default function WorkExperience() {
     </svg>
   );
 
+  const stealthAIIcon = (
+    <svg
+      width="180"
+      height="180"
+      viewBox="0 0 180 180"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="90" cy="90" r="90" fill="black" />
+      <text
+        x="50%"
+        y="50%"
+        textAnchor="middle"
+        fill="white"
+        fontSize="72"
+        fontFamily="Arial, sans-serif"
+        dy=".3em"
+      >
+        AI
+      </text>
+    </svg>
+  );
+
   const workExperiences = [
     {
-      company: "RATs Solutions",
-      role: "Full Stack Developer",
-      location: "India",
-      type: "Remote (Contract)",
-      startDate: "Jan 2025",
+      company: "Stealth AI Startup",
+      role: "Founding UI Engineer ",
+      location: "Remote (US)",
+      type: "Part-time",
+      startDate: "Aug 2025",
       endDate: "Present",
       description:
-        "Rapidly shipping MVPs for early-stage startup clients, crafting sleek, high-performance UIs and conversion-focused landing pages that accelerate product launches and growth.",
+        "Building intuitive user interfaces for AI-driven applications, focusing on seamless user experiences and responsive design to enhance user engagement and satisfaction.",
+      icon: stealthAIIcon,
+    },
+    {
+      company: "RATs Solutions",
+      role: "SDE Intern",
+      location: "Remote (India)",
+      type: "Internship",
+      startDate: "May 2025",
+      endDate: "Jul 2025",
+      description:
+        "Rapidly shipped MVPs for early-stage startup clients, crafting sleek, high-performance UIs and conversion-focused landing pages that accelerate product launches and growth.",
       icon: ratsIcon,
     },
   ];
