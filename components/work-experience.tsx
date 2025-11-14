@@ -114,7 +114,7 @@ export default function WorkExperience() {
       role: "SDE Intern",
       location: "Remote (India)",
       type: "Internship",
-      startDate: "May 2025",
+      startDate: "Jan 2025",
       endDate: "Jul 2025",
       description:
         "Rapidly shipped MVPs for early-stage startup clients, crafting sleek, high-performance UIs and conversion-focused landing pages that accelerate product launches and growth.",
