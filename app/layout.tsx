@@ -10,11 +10,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Rohan Jhaldiyal",
   description: "Personal Portfolio Website",
-  metadataBase: new URL("https://craftsui.studio"),
+  metadataBase: new URL("https://rohanjhaldiyal.me"),
   openGraph: {
     title: "Rohan Jhaldiyal",
     description: "Personal Portfolio Website",
-    url: "https://rohanjhaldiyal.com",
+    url: "https://rohanjhaldiyal.me",
     siteName: "Rohan Jhaldiyal",
     images: [
       {
